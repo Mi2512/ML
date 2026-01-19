@@ -1,0 +1,14 @@
+{
+  "api_keys": {
+    "yandex_geocoder": "YOUR_YANDEX_GEOCODER_API_KEY_HERE",
+    "yandex_static_maps": "YOUR_YANDEX_STATIC_MAPS_API_KEY_HERE",
+    "openweathermap": "YOUR_OPENWEATHERMAP_API_KEY_HERE"
+  },
+  "database": {
+    "path": "data/db/routes.db"
+  },
+  "cache": {
+    "weather_dir": "weather_cache",
+    "yandex_dir": "yandex_cache"
+  }
+}

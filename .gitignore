@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+# Конфигурация с API ключами
+config.json
+
+# Кэш и временные данные
+data/cache/
+data/temp/
+data/db/
+data/output/
+weather_cache/
+yandex_cache/
+*.cache
+
+# Тестовые выходные файлы и тесты
+test_export/
+test_maps/
+tests/
+
+# Временные файлы создаваемые при запуске
+*.log
+*.sqlite
+*.db
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+logs/
+
+# Конфигурация с секретами (если есть)
+config.local.json
+.env
+.env.local
+
+# Документация (генерируемая)
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Output data (сохраняем структуру, но не содержимое)
+data/output/*.csv
+data/output/*.json
+data/output/stage14/
+
+# Downloads
+data/temp/downloads/
+data/temp/map_cache/
+data/temp/osm_cache/
